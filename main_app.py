@@ -4,5 +4,5 @@ from PIL import Image
 st.title('すごいアプリにこれからなるやつ')
 st.caption('これはこれからすごいことになるはずのテストアプリです。')
 
-image = Image.open('/Users/sunsuki/MEGAsync/業務用/VSCODE/Python/streamlit/test/IMG_1899.jpg')
+image = Image.open('sapu_app/data/名称未設定のアートワーク.jpg')
 st.image(image, width=600)
