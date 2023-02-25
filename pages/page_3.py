@@ -4,8 +4,7 @@ import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(
-    'Python/streamlit/sapu_app/data/quantity.csv', encoding='shift_jis')
+df = pd.read_csv('/Users/sunsuki/python/streamlit/sapu_app/data/quantity.csv', encoding='shift_jis')
 st.dataframe(df)
 #st.table(df)
 st.bar_chart(df, y='quantity')
